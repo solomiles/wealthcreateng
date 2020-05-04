@@ -555,7 +555,8 @@
 						<!--Footer-->
 					<footer id="footer" class="clearfix">
 
-								<p>&copy; 2018. <span>WEALTHCREATENG</span> All Rights Reserved.</p>
+                                <p>&copy; <script type="text/javascript"> var now = new Date().getFullYear();
+                            document.write(now);</script> <span>WEALTHCREATENG</span> All Rights Reserved.</p>
 
 								<ul>
 									<li><a href="#">Privacy</a></li>
