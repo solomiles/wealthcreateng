@@ -106,16 +106,7 @@
 					<li><a href="#pricing">packages</a></li>
 					<li><a class="buy" href="#"><i class="icon-right-big"></i>purchase</a></li> -->
 					<li><a href="#contact">contact us</a></li>
-					@if (Route::has('login'))
 
-							@auth
-								<li><a href="{{ url('/home') }}">Home</a></li>
-							@else
-								<li><a href="{{ route('login') }}">Login</a></li>
-								<li><a href="{{ route('register') }}">Register</a></li>
-							@endauth
-
-					@endif
 
 				</ul>
 
