@@ -132,8 +132,8 @@
 						<div class="teaserTitl">
 							<h1>Boost your<span> account balance</span></h1>
 							<h2>30% profit return on all Investment
-								within 3 hours </h2>
-							<p>Minimum investment amount is &#8358;5000</p>
+								within 3 Days </h2>
+							<p>Minimum investment amount is &#8358;5000 <span> Maximum investment amount is &#8358;200,000 </span></p>
 						</div>
 						<!--End teaser title-->
 
@@ -223,7 +223,7 @@
 					</div>
 					<!--End feature single-->
 				</div>
-				</div>
+				</div></div>
 				<!--End features holder-->
 
 
@@ -369,49 +369,116 @@
 
 
 										<!--Client-->
-										<!-- <section id="client"> -->
+										<!-- <section id="cliet"> -->
 										<!--Client container-->
-										<!-- <div class="clientContainer"> -->
+										<div class="container">
 
 
 													<!--Overlay-->
-													<!-- <div class="overlay"> -->
+													<div class="panel panel-info">
 													<!--Holder 960-->
-													<!-- <div class="holder960 clearfix"> -->
+													<div class="holder960 clearfix">
 
 														<!--Client content-->
-														<!-- <div class="clientContent"> -->
+														<div class=" col-md-12 clientContent">
 
-													<!-- <h1><span class="black">our happy clients</span> they trust us</h1>
+													<h1 class="text-info"><span class="black">Investments </span> like no other</h1>
 
-													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-														 do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-														 Laboris nisi ut aliquip ex ea commodo consequat. </p> -->
-
+													<p class="text-info" style="font-size:1.5em">Best online peer to peer community with standard functionalities that offers 30% growth on your investment within 3 days (72 hours). </p>
+															<br>
 													<!--Client list-->
+												<div class="row">
+													<div class="col-md-12">
 
-													<!-- <ul class="clientList">
-														<li><a href="#"><i class="icon-qq"></i></a></li>
-														<li><a href="#"><i class="icon-renren"></i></a></li>
-														<li><a href="#"><i class="icon-rdio"></i></a></li>
-														<li><a href="#"><i class="icon-evernote"></i></a></li>
-														<li><a href="#"><i class="icon-mfg-logo"></i></a></li>
-														<li><a href="#"><i class="icon-sina-weibo"></i></a></li>
+														<div class="Holder clearfix">
+															<!-- single-->
+															<div class="col-md-3">
+																<div class="Single colum clearfix">
+																	<div class="btn btn-success"><i class="glyphicon glyphicon-ok"></i></div>
+																	<div class="desc column">
+																		<h2>Full auto merging functionality</h2>
 
+																	</div>
+																</div>
+															</div>
+																<!--End  single-->
 
-													</ul> -->
+																<!-- single-->
+															<div class="col-md-3">
+																<div class="Single colum clearfix">
+																	<div class="btn btn-success"><i class="glyphicon glyphicon-ok"></i></div>
+																	<div class="desc column">
+																		<h2>30% in 3 days</h2>
+
+																	</div>
+																</div>
+															</div>
+																<!--End  single-->
+
+																<!-- single-->
+															<div class="col-md-3">
+																<div class="Single colum clearfix">
+																	<div class="btn btn-success"><i class="glyphicon glyphicon-ok"></i></div>
+																	<div class="desc column">
+																		<h2>10% commitment</h2>
+
+																	</div>
+																</div>
+															</div>
+															<!--End  single-->
+															<div class="col-md-3">
+																<div class="Single colum clearfix">
+																	<div class="btn btn-success"><i class="glyphicon glyphicon-ok"></i></div>
+																	<div class="desc column">
+																		<h2>5% continous referrer bonuses</h2>
+
+																	</div>
+																</div>
+															</div>
+																<!--End  single-->
+
+																<!-- single-->
+															<div class="col-md-3">
+																<div class="Single colum clearfix">
+																	<div class="btn btn-success"><i class="glyphicon glyphicon-ok"></i></div>
+																	<div class="desc column">
+																		<h2>Minimum PH amount &#8358;5000</h2>
+
+																	</div>
+																</div>
+															</div>
+																<!--End  single-->
+
+																<!-- single-->
+															<div class="col-md-3">
+																<div class="Single colum clearfix">
+																	<div class="btn btn-success"><i class="glyphicon glyphicon-ok"></i></div>
+																	<div class="desc column">
+																		<h2>Maximum PH amount &#8358;200,000</h2>
+
+																	</div>
+																</div>
+															</div>
+															<!--End  single-->
+														</div>
+
+													<!--End s holder-->
+
+													</div>
+												</div>
+													</div>
 
 													<!--End client list-->
 
 
-														<!-- </div> -->
+														</div>
 														<!--End client container-->
-														<!-- </div> -->
+														</div>
 														<!--End Holder 960-->
 
-															<!-- </div> -->
+															</div>
 															<!--End overlay-->
-												<!-- </div> -->
+												</div>
 												<!--End client container-->
 
 												<!-- </section> -->
@@ -591,6 +658,19 @@
 <script type="text/javascript" src="assets/js/countdown.js"></script>
 
 <!-- End page level analytics -->
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+		(function(){
+		var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+		s1.async=true;
+		s1.src='https://embed.tawk.to/5eb278ba81d25c0e58493efe/default';
+		s1.charset='UTF-8';
+		s1.setAttribute('crossorigin','*');
+		s0.parentNode.insertBefore(s1,s0);
+		})();
+</script>
+<!--End of Tawk.to Script-->
 
 
 </body>
