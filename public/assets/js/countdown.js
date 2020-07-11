@@ -1,7 +1,7 @@
 
 
-var startDate = new Date("04/25/2020");
-var endDate = new Date("05/25/2020");
+var startDate = new Date("06/25/2020");
+var endDate = new Date("07/25/2020");
 
 var dif = endDate.getTime() - startDate.getTime();
 var difToSecond = dif / 1000;

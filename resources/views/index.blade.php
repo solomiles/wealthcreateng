@@ -7,7 +7,7 @@
 <meta name="author" content="codesBySolomiles" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>{{ config('app.name', 'Laravel') }}</title>
+<title>{{ config('app.name', 'Project') }}</title>
 
 <!--Stylesheet-->
 
@@ -23,8 +23,11 @@
 <link rel="stylesheet" href="{{ asset ('assets/css/countdown.css')}}" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="{{ asset ('assets/plugins/bootstrap/css/bootstrap.css')}}" />
+{{--<link rel="stylesheet" href="https://247alerts.net/assets/templates/tsk/fonts/flaticon.css">--}}
+    <link rel="stylesheet" href="https://247alerts.net/assets/templates/tsk/css/style.php?color=2ecc71&amp;secondColor=000036">
+    <link rel="stylesheet" href="https://247alerts.net/assets/templates/tsk/css/responsive.css">
 
-    <!-- <link rel="stylesheet" href="assets/plugins/Font-Awesome/css/font-awesome.css" /> -->
+{{--     <link rel="stylesheet" href="assets/plugins/Font-Awesome/css/font-awesome.css" />--}}
 
 
 
@@ -62,6 +65,28 @@
 			min-height: 700px;
 		}
 	}
+    .well{
+        background: #fff;
+        /*border: 1px solid;*/
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px 1px #17a2b8;
+    }
+    .cent {
+        text-align: center;
+    }
+    /*.how-it-works .single-works {*/
+    /*    text-align: center;*/
+    /*    padding: 40px 30px 15px;*/
+    /*    transition: all 0.3s ease-in;*/
+    /*    box-shadow: 0px 0px 9px 2px #F5F5F5;*/
+    /*}*/
+    /*.how-it-works .single-works .part-icon {*/
+    /*    font-size: 45px;*/
+    /*    color: #2ecc71;*/
+    /*    line-height: 100%;*/
+    /*    margin-bottom: 23px;*/
+    /*}*/
+
 
 </style>
 </head>
@@ -89,7 +114,7 @@
 
 			<!--Logo-->
 			<div class="logo">
-			<a href="#wrapper"><h1><span>WEALTH</span> CREATE<span>NG</span></h1></a>
+			<a href="#wrapper"><h1><span>BANK</span>ALARTS<span></span></h1></a>
 			</div>
 			<!--End logo-->
 
@@ -130,10 +155,9 @@
 
 						<!--Teaser title-->
 						<div class="teaserTitl">
-							<h1>Boost your<span> account balance</span></h1>
-							<h2>30% profit return on all Investment
-								within 3 Days </h2>
-							<p>Minimum investment amount is &#8358;5000 <span> Maximum investment amount is &#8358;200,000 </span></p>
+							<h1>Your Alartious Home</span></h1>
+							<h2>50% in 3 Days, 5% continuous referrer bonus from your downline</h2>
+							<p>Minimum investment &#8358;5000 <span> Maximum investment &#8358;500,000 </span></p>
 						</div>
 						<!--End teaser title-->
 
@@ -217,7 +241,7 @@
 						<div class=""><i class="glyphicon glyphicon-ok"></i></div>
 						<div class="desc column">
 							<h2>Target</h2>
-							<p>With Us, You Are Sure To Get 30% Interest on all investments.
+							<p>With Us, You Are Sure To Get 50% Interest on all investments.
 							 </p>
 						</div>
 					</div>
@@ -320,9 +344,104 @@
 										<!--End subscribe container-->
 
 						<!-- </section> -->
-						<!--End newsletter-->
+						<!--End newsletter--><br>
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="container">
+                            <div class="col-lg-12 col-lg-offset- col-md-12 col-md-offset-">
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="well ">
+                                            <a href="#">
+                                                <div class="cent">
+                                                    <div class=" btn-lg ">
+                                                        <i class="glyphicon glyphicon-user"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="part-text">
+                                                    <h3 class="cent">Join Us</h3>
+                                                    <p>BankAlarts registration is simple and user friendly. Sign up today in less than 2 minutes.</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="well ">
+                                            <a href="#">
+                                                <div class="cent">
+                                                    <div class=" btn-lg ">
+                                                        <i class="glyphicon glyphicon-check"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="part-text">
+                                                    <h3 class="cent">Activate</h3>
+                                                    <p>&#8358;1000 to be paid to a guider is required to become an active member of BankAlarts.</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="well ">
+                                            <a href="#">
+                                                <div class="">
+                                                    <i class="fas fa-user-plus"></i>
+                                                </div>
+                                                <div class="part-text">
+                                                    <h3>Invest</h3>
+                                                    <p>BankAlarts has minimum investment of N5,000  and maximum investment of N500,000</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="well ">
+                                            <a href="#">
+                                                <div class="">
+                                                    <i class="fas fa-user-plus"></i>
+                                                </div>
+                                                <div class="part-text">
+                                                    <h3>Re Commitment</h3>
+                                                    <p>100% Re-commitment to ensure sustainability of BankAlarts </p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="well ">
+                                            <a href="#">
+                                                <div class="">
+                                                    <i class="fas fa-user-plus"></i>
+                                                </div>
+                                                <div class="part-text">
+                                                    <h3>Referrer Bonus</h3>
+                                                    <p>5% continuous referrer bonuses from your downline</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="well ">
+                                            <a href="#">
+                                                <div class="">
+                                                    <i class="fas fa-user-plus"></i>
+                                                </div>
+                                                <div class="part-text">
+                                                    <h3>Make Withdrawal</h3>
+                                                    <p>After 3 days (72 hours) of investing to Bankalarts, you will wait to be matched to get paid. Which is instant.</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
+                </div>
 
 
 
@@ -371,114 +490,7 @@
 										<!--Client-->
 										<!-- <section id="cliet"> -->
 										<!--Client container-->
-										<div class="container">
 
-
-													<!--Overlay-->
-													<div class="panel panel-info">
-													<!--Holder 960-->
-													<div class="holder960 clearfix">
-
-														<!--Client content-->
-														<div class=" col-md-12 clientContent">
-
-													<h1 class="text-info"><span class="black">Investments </span> like no other</h1>
-
-													<p class="text-info" style="font-size:1.5em">Best online peer to peer community with standard functionalities that offers 30% growth on your investment within 3 days (72 hours). </p>
-															<br>
-													<!--Client list-->
-												<div class="row">
-													<div class="col-md-12">
-
-														<div class="Holder clearfix">
-															<!-- single-->
-															<div class="col-md-3">
-																<div class="Single colum clearfix">
-																	<div class="btn btn-success"><i class="glyphicon glyphicon-ok"></i></div>
-																	<div class="desc column">
-																		<h2>Full auto merging functionality</h2>
-
-																	</div>
-																</div>
-															</div>
-																<!--End  single-->
-
-																<!-- single-->
-															<div class="col-md-3">
-																<div class="Single colum clearfix">
-																	<div class="btn btn-success"><i class="glyphicon glyphicon-ok"></i></div>
-																	<div class="desc column">
-																		<h2>30% in 3 days</h2>
-
-																	</div>
-																</div>
-															</div>
-																<!--End  single-->
-
-																<!-- single-->
-															<div class="col-md-3">
-																<div class="Single colum clearfix">
-																	<div class="btn btn-success"><i class="glyphicon glyphicon-ok"></i></div>
-																	<div class="desc column">
-																		<h2>10% commitment</h2>
-
-																	</div>
-																</div>
-															</div>
-															<!--End  single-->
-															<div class="col-md-3">
-																<div class="Single colum clearfix">
-																	<div class="btn btn-success"><i class="glyphicon glyphicon-ok"></i></div>
-																	<div class="desc column">
-																		<h2>5% continous referrer bonuses</h2>
-
-																	</div>
-																</div>
-															</div>
-																<!--End  single-->
-
-																<!-- single-->
-															<div class="col-md-3">
-																<div class="Single colum clearfix">
-																	<div class="btn btn-success"><i class="glyphicon glyphicon-ok"></i></div>
-																	<div class="desc column">
-																		<h2>Minimum PH amount &#8358;5000</h2>
-
-																	</div>
-																</div>
-															</div>
-																<!--End  single-->
-
-																<!-- single-->
-															<div class="col-md-3">
-																<div class="Single colum clearfix">
-																	<div class="btn btn-success"><i class="glyphicon glyphicon-ok"></i></div>
-																	<div class="desc column">
-																		<h2>Maximum PH amount &#8358;200,000</h2>
-
-																	</div>
-																</div>
-															</div>
-															<!--End  single-->
-														</div>
-
-													<!--End s holder-->
-
-													</div>
-												</div>
-													</div>
-
-													<!--End client list-->
-
-
-														</div>
-														<!--End client container-->
-														</div>
-														<!--End Holder 960-->
-
-															</div>
-															<!--End overlay-->
-												</div>
 												<!--End client container-->
 
 												<!-- </section> -->
@@ -623,7 +635,7 @@
 					<footer id="footer" class="clearfix">
 
                                 <p>&copy; <script type="text/javascript"> var now = new Date().getFullYear();
-                            document.write(now);</script> <span>WEALTHCREATENG</span> All Rights Reserved.</p>
+                            document.write(now);</script> <span>{{ config('app.name', 'Project') }}</span> All Rights Reserved.</p>
 
 								<ul>
 									<li><a href="#">Privacy</a></li>

@@ -11,18 +11,18 @@
 	text-decoration:none;
 	position:fixed;
 	bottom:100px;
-	right:20px;
+	right:30px;
 	z-index:10000;
 
 }
 
 
 #toTop i {
-    background:#EFEFEF;
+    background: rgba(45, 156, 216, 1);
     border-radius: 3px 3px 3px 3px;
-    color: #999999;
-    font-size: 10px;
-    padding: 12px;
+    color: #f7f7f7;
+    font-size: 20px;
+    padding: 9px 9px 20px 0px;
     z-index: 1000;
 }
 

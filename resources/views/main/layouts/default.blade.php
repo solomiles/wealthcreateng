@@ -252,7 +252,7 @@
 
                         <li>
                             <a href="#">
-                                Wealth Design
+                                {{ config('app.name', 'Project')  }} Design
                             </a>
                         </li>
                         <li>

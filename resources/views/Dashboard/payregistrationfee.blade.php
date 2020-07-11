@@ -10,8 +10,8 @@
             <div class="col-md-12" >
                 <div class="well" >
                     <div class="header">
-                        <h4 class="title">Registration Fee Page</h4>
-                        <p class="category">Before Investing into the Community you are required to pay a token for registration fee </p>
+                        <h4 class="title">Activation Fee </h4>
+{{--                        <p class="category">Before Investing into the Community you are required to pay activation fee </p>--}}
                     </div>
 
                     @if (count($errors) > 0)
@@ -47,12 +47,13 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="col-md-6">
-                                <h5><strong>You are required to pay the sum of ₦3,000 for registration fee</strong></h5>
-                                <small>Below is the account details</small><br><br>
+                                <h5><strong>You are required to pay ₦1,000 activation fee to your <em>GUIDER</em></strong></h5>
+                                <small>Details</small><br><br>
                                 <ul style="list-style:none">
                                     <li>Bank Name: <span style="color:red; margin-left:10px"> Admin</span></li><br>
                                     <li>Account Number: <span style="color:red; margin-left:10px"> Admin</span></li><br>
                                     <li>Account Name: <span style="color:red; margin-left:10px"> Admin</span></li><br>
+                                    <li>Phone Number: <span style="color:red; margin-left:10px"> 0893939032</span></li><br>
                                 </ul>
                             </div>
                             <div class="col-md-6">

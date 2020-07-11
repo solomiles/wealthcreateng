@@ -10,8 +10,8 @@
             <div class="col-md-12" >
                 <div class="well" >
                     <div class="header">
-                        <h4 class="title">Upload Proof Of Payment Page</h4>
-                        <p class="category">Before Investing into the Community you are required to pay a token for registration fee </p>
+                        <h4 class="title">Upload Proof Of Payment</h4>
+{{--                        <p class="category">Before Investing into the Community you are required to pay a token for registration fee </p>--}}
                     </div>
 
                     @if (count($errors) > 0)
@@ -47,7 +47,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="col-md-6">
-                                <h5><strong>If you have successfully paid the registration fee of ₦3,000 </strong></h5>
+                                <h5><strong>If you have successfully paid the activation fee of ₦1,000 </strong></h5>
                                 <small>Please kindly upload proof of payment below</small><br><br><br>
                                 
                             </div>
